@@ -16,8 +16,8 @@ author: Michelle Chung
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - Crystallization Regression: "/_posts/2021-05-08-crystallization-regression.md"
-    - Small Modular Reactor Capstone: "/_posts/2021-05-08-smr-capstone.md"
+    - Crystallization Regression: "/_posts/2021-05-08-crystallization-regression"
+    - Small Modular Reactor Capstone: "/_posts/2021-05-08-smr-capstone"
   Contact Me: "contact.html"
 
 # --- Logo --- #
