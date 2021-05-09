@@ -16,8 +16,8 @@ author: Michelle Aria Chung
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Crystallization Regression: "aboutme"
+    - Small Modular Reactor Capstone: "aboutme"
   Author's home: "https://michellechung-code.github.io/"
 
 # --- Logo --- #
