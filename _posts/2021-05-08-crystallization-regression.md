@@ -1,14 +1,15 @@
 ---
 layout: post
-title: Sample blog post
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
+title: Crystallization Regression
+subtitle: Regression Analysis on Crystallization Experimental Data 
+gh-repo: MichelleChung-code/MultipleOutputRegressions
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [Regression, Analysis, Chemical Engineering]
 comments: true
 ---
+Skills Used: [Python](https://www.python.org/){:target="_blank"}
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+This project involved running a regression analysis on experimental data obtained from a crystallization lab. This was completed as a component of the ENCH 551 course.  The experiment cooled an aqueous solution of supersaturated potassium chloride (KCl) to induce crystal formation. Data from nine experiments was collected to investigate the effects of agitation rate and seed crystal mass (independent variables) on crystal yield, growth rate, and mean diameter (dependent variables). The objective of the regression analysis was to determine the optimal experimental conditions that would maximize these three attributes.
 
 **Here is some bold text**
 

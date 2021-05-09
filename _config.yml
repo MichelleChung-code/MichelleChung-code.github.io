@@ -6,19 +6,19 @@
 # --- Required options --- #
 
 # Name of website
-title: Michelle Chung Website
+title: Michelle Chung
 
 # Your name to show in the footer
-author: Michelle Aria Chung
+author: Michelle Chung
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - Crystallization Regression: "aboutme"
-    - Small Modular Reactor Capstone: "aboutme"
-  Author's home: "https://michellechung-code.github.io/"
+    - Crystallization Regression: "/_posts/2021-05-08-crystallization-regression.md"
+    - Small Modular Reactor Capstone: "/_posts/2021-05-08-smr-capstone.md"
+  Contact Me: "contact.html"
 
 # --- Logo --- #
 
@@ -65,7 +65,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: This website is a virtual proof that I'm awesome
+# rss-description: This website is a virtual proof that I'm awesome
 
 # --- General options --- #
 
