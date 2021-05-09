@@ -3,7 +3,6 @@ layout: post
 title: Crystallization Regression
 subtitle: Regression Analysis on Crystallization Experimental Data 
 gh-repo: MichelleChung-code/MultipleOutputRegressions
-gh-badge: [star, fork, follow]
 tags: [Regression, Analysis, Chemical Engineering]
 comments: true
 ---
