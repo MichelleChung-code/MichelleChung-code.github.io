@@ -1,14 +1,12 @@
 ---
 layout: page
-title: About me
-subtitle: This is a work in progress
+title: About Me
+subtitle: Thank you for visiting my site!
 ---
 
-My name is Michelle Chung. 
+Hello again, I'm Michelle! 👋
 
-- blah blah blah
-- blah blah blah
+- :woman_scientist: I graduated Chemical Engineering with the Energy and Environment Specialization from the University of Calgary in June 2021
+<!-- ### My story
 
-### My story
-
-**blah blah blah**
+**blah blah blah** -->
