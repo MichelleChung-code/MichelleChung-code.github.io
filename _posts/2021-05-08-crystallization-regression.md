@@ -7,6 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [Regression, Analysis, Chemical Engineering]
 comments: true
 ---
+Github Repository: [MultipleOutputRegressions](https://github.com/MichelleChung-code/MultipleOutputRegressions)
 Skills Used: [Python](https://www.python.org/){:target="_blank"}
 
 This project involved running a regression analysis on experimental data obtained from a crystallization lab. This was completed as a component of the ENCH 551 course.  The experiment cooled an aqueous solution of supersaturated potassium chloride (KCl) to induce crystal formation. Data from nine experiments was collected to investigate the effects of agitation rate and seed crystal mass (independent variables) on crystal yield, growth rate, and mean diameter (dependent variables). The objective of the regression analysis was to determine the optimal experimental conditions that would maximize these three attributes.
