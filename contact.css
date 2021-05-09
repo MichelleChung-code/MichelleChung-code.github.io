@@ -8,7 +8,7 @@
 
 input[type=text],
 select,
-textarea {
+textarea {  
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -16,5 +16,5 @@ textarea {
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical
+    resize: both;
 }
