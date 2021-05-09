@@ -6,18 +6,18 @@
 # --- Required options --- #
 
 # Name of website
-title: Michelle Aria Chung
+title: Michelle Chung
 
 # Your name to show in the footer
-author: Michelle Aria Chung
+author: Michelle Chung
 
 # --- List of links in the navigation bar --- #
 
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - Crystallization Regression: "aboutme"
-    - Small Modular Reactor Capstone: "aboutme"
+    - Crystallization Regression: "/_posts/2021-05-08-crystallization-regression.md"
+    - Small Modular Reactor Capstone: "/_posts/2021-05-08-smr-capstone.md"
   Contact Me: "contact.html"
 
 # --- Logo --- #
