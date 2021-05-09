@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Crystallization Regression
-subtitle: Done using Python
+subtitle: Regression Analysis on Crystallization Experimental Data 
 gh-repo: MichelleChung-code/MultipleOutputRegressions
 gh-badge: [star, fork, follow]
 tags: [Regression, Analysis, Chemical Engineering]
 comments: true
 ---
 
-This project involved running a regression analysis on experimental data obtained from the crystallization lab. This was completed as a component of the ENCH 551 course.  The experiment cooled an aqueous solution of supersaturated potassium chloride (KCl) to induce crystal formation. Data from nine experiments was collected to investigate the effects of agitation rate and seed crystal mass (independent variables) on crystal yield, growth rate, and mean diameter (dependent variables). The objective of the regression analysis was to determine the optimal experimental conditions that would maximize these three attributes.
+This project involved running a regression analysis on experimental data obtained from a crystallization lab. This was completed as a component of the ENCH 551 course.  The experiment cooled an aqueous solution of supersaturated potassium chloride (KCl) to induce crystal formation. Data from nine experiments was collected to investigate the effects of agitation rate and seed crystal mass (independent variables) on crystal yield, growth rate, and mean diameter (dependent variables). The objective of the regression analysis was to determine the optimal experimental conditions that would maximize these three attributes.
 
 **Here is some bold text**
 
