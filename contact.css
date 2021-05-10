@@ -9,7 +9,7 @@
 input[type=text],
 select,
 textarea {
-    width: 150%;
+    width: 100%;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
