@@ -4,13 +4,12 @@
     padding: 20px;
     margin-left: 10%;
     margin-right: 10%;
-    width: 100%;
 }
 
 input[type=text],
 select,
 textarea {
-    width: 100%;
+    width: 150%;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
