@@ -16,8 +16,8 @@ author: Michelle Chung
 navbar-links:
   About Me: "aboutme"
   Projects:
-    - Crystallization Regression: "/_posts/2021-05-08-crystallization-regression.md"
-    - Small Modular Reactor Capstone: "/_posts/2021-05-08-smr-capstone.md"
+    - Crystallization Regression: "2021-05-08-crystallization-regression"
+    - Small Modular Reactor Capstone: "2021-05-08-smr-capstone"
   Contact Me: "contact.html"
 
 # --- Logo --- #
@@ -39,7 +39,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "tkd.m.chung@gmail.com"
+  # email: "tkd.m.chung@gmail.com"
   # facebook: deanattali
   github: MichelleChung-code
   # twitter: daattali
