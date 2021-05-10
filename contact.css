@@ -13,7 +13,7 @@ textarea {
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
+    box-sizing: content-box;
     margin-top: 6px;
     margin-bottom: 16px;
     margin-left: auto;
