@@ -17,7 +17,7 @@ This project involved running a regression analysis on experimental data obtaine
 
 Experimental results obtained and used to run the regression analysis are tabulated below:
 
-| Agitator Speed (rpm) | Seed Crystal Mass (g) | Yield (g) | Growth Rate (m/s) | Mean Diameter (g) |
+| Agitator Speed ($ rpm $) | Seed Crystal Mass ($ g $) | Yield ($ g $) | Growth Rate ($ m/s $) | Mean Diameter ($ \mu m $) |
 | :------------------: |:--------------------: | :-------: | :---------------: | :---------------: |
 | 214 | 0 | 170.5448 | 6.7462E-08 | 218.577 |
 | 214	| 1	| 231.2165 | 7.22231E-08	| 225.336 | 
@@ -82,8 +82,16 @@ Summarizing the R<sup>2</sup> scores for the three separate models:
 | Linear with dependent variable interactions	| 0.08978	| 0.519 | 0.592	| 
 | Random forest	| 0.7298	| 0.90597	| 0.905	| 
 
+Due to the higher R<sup>2</sup>  scores observed for the random forest regression model, this was chosen to be used to solve the optimization problem.  
 
+Optimization results for the random forest model:
+| Case | Agitation Rate ($ rpm $) | Seed Crystal Mass ($ g $) | Maximum Value | 
+| :---: |:---: | :---: | :---: | 
+| Linear with independent variable interactions | 0.242 | 0.519 | 0.751 | 
+| Linear with dependent variable interactions	| 0.08978	| 0.519 | 0.592	| 
+| Random forest	| 0.7298	| 0.90597	| 0.905	| 
 
+## Results Summary
 
 	
 
