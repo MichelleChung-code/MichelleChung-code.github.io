@@ -40,9 +40,9 @@ The multiple linear regression considering interactions between independent vari
 
 Where, 
 - $ i $ is the dependent variable number of the given dependent variable. 
-- $ y_i $ is the dependent variable 
+- $ y_i $ is the dependent variable.
 - $ x_1 $  and $ x_2 $ are the independent variables, agitation rate (rpm) and seed crystal mass (g), respectively.  
-- $ β_{i0} $  is the constant term
+- $ β_{i0} $  is the constant term.
 - $ β_{i1} $, $ β_{i2} $, and $ β_{i3} $ are the coefficients associated with each independent variable, with $ β_{i3} $ being associated with the interaction term.
 
 The challenge with this first model is that the regression problem has been divided into a separate problem for each dependent variable to be predicted.  This assumes that the outputs are independent of each other.  The next linear model attempts to addressed this limitation.
@@ -58,7 +58,7 @@ Where,
 - $ i $ is the dependent variable number of the given dependent variable. 
 - $ y_i $ is the dependent variable.
 - $ x_1 $ and $ x_2 $ are the independent variables, agitation rate (rpm) and seed crystal mass (g), respectively.  
-- $ \beta_{i0} $ is the constant term
+- $ \beta_{i0} $ is the constant term.
 - $ \beta_{i1} $ and $ \beta_{i2} $ are the coefficients associated with each independent variable.
 - $ \alpha_{ij} $ are the coefficients associated with the $ j $th dependent variable.
 
