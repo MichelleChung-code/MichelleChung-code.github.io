@@ -72,6 +72,12 @@ For the responses of power output and outlet header temperature:
 <img style="width:100%;" src="../assets/img/smr_power_out_temp_dynamic.JPG" alt="Dynamic Response Power Output and Outlet Header Temp">
 </p>
 
+Lastly, the reactor shows inherently safe behaviour through automatic shutdown at high temperatures. 
+
+<p align="center">
+<img style="width:100%;" src="../assets/img/reactor_shutdown.JPG" alt="Reactor Shut Down">
+</p>
+
 
 **Key References**
 - International Atomic Energy Agency, "Status of innovative small and medium sized reactor designs 2005," Vienna, Austria, IAEA, 2006, pp. 509-529.
