@@ -50,11 +50,25 @@ A nodal approach was taken to more accurately model the reactor.  The reactor wa
 
 For nuclear kinetics, within each node, the neutron flux and material composition are assumed constant. For the thermal hydraulic model, every node is considered as a lump which has constant temperature, pressure, and flow rate.  It is assumed that neutron exchange only occurs between adjacent nodes. These are considered through coupling coefficients, which depend on material composition, initial neutron flux distributions, and nodal geometry.
 
-With the 10 node case, the shape of the power profile of the modelled reactor, closely resembled that of the HTR-PM literature case.
+With the 10 node case, the shape of the power profile of the modelled reactor (left), closely resembled that of the HTR-PM literature case (right).
 
 <p align="center">
 <img style="width:100%;" src="../assets/img/smr_power_profile.JPG" alt="Power Profile Comparison">
 </p>
 
-**References**
+A control rod system and ability to observe dynamic step responses were also implemented. The control rod system provides a reactivity control mechanism for obtaining the desired power output, and also served to ensure faster reactor shut down in emergency scenarios.  The two step responses of interest were a step change in natural system reactivity and a step point change in control rod control system set point (outlet header temperature set point). The step change in natural system reactivity allowed observing how other variables reacted to a change in reactivity. For the step change in control rod control system set point, the speed at which the controller would adjust to follow the new set point was observed.
+
+At 2500s, a step change in magnitude of 5% natural system reactivity occurs. At 5000s, a step change in controller set point by 25°C occurs.
+
+For the responses of temperature of the fuel elements and helium:
+
+<p align="center">
+<img style="width:100%;" src="../assets/img/smr_power_out_temp_dynamic.JPG" alt="Power Profile Comparison">
+</p>
+
+For the responses of power output and outlet header temperature:
+
+
+
+**Key References**
 - 
