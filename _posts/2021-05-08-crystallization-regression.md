@@ -85,6 +85,7 @@ Summarizing the R<sup>2</sup> scores for the three separate models:
 Due to the higher R<sup>2</sup>  scores observed for the random forest regression model, this was chosen to be used to solve the optimization problem.  
 
 Optimization results for the random forest model:
+
 | Case | Agitation Rate ($ rpm $) | Seed Crystal Mass ($ g $) | Maximum Value | 
 | :---: |:---: | :---: | :---: | 
 | Yield | $ 565 rpm $ | $ 0 g $ | $ 238.8887 g $ | 
