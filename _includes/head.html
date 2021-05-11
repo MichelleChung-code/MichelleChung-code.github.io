@@ -84,7 +84,7 @@
   <meta property="og:site_name" content="{{ site.title }}">
   {% endif %}
 
-  {%- capture img -%}
+  <!-- {%- capture img -%}
     {%- if page.share-img -%}
       {{ page.share-img }}
     {%- elsif page.cover-img -%}
@@ -99,14 +99,15 @@
       {{ site.avatar }}
     {% endif %}
   {%- endcapture -%}
-  {%- assign img=img | strip -%}
+  {%- assign img=img | strip -%} -->
 
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" content="{{ description }}">
 
-  {% if img != "" %}
-  <meta property="og:image" content="{{ img | absolute_url }}">
-  {% endif %}
+  <!-- {% if img != "" %} -->
+  <meta property="og:image" content="https://michellechung-code.github.io/assets/img/michelle.jpg">
+  <meta property="og:image:secure" content="https://michellechung-code.github.io/assets/img/michelle.jpg">
+  <!-- {% endif %} -->
 
   {% if page.id %}
   <meta property="og:type" content="article">

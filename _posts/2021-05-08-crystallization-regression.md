@@ -3,6 +3,8 @@ layout: post
 title: Crystallization Regression
 subtitle: Regression Analysis on Crystallization Experimental Data 
 gh-repo: MichelleChung-code/MultipleOutputRegressions
+thumbnail-img: /assets/img/crystallization_setup.jpg
+readtime: true
 tags: [Regression, Analysis, Chemical Engineering]
 ---
 Github Repository: [MultipleOutputRegressions](https://github.com/MichelleChung-code/MultipleOutputRegressions)
@@ -19,15 +21,15 @@ Experimental results obtained and used to run the regression analysis are tabula
 
 | Agitator Speed \(rpm) | Seed Crystal Mass \(g) | Yield \(g) | Growth Rate \(m/s) | Mean Diameter \(μm) |
 | :------------------: |:--------------------: | :-------: | :---------------: | :---------------: |
-| 214 | 0 | 170.5448 | 6.7462E-08 | 218.577 |
-| 214	| 1	| 231.2165 | 7.22231E-08	| 225.336 | 
-| 214	| 2	| 171.36	| 5.82614E-08	| 178.28 | 
-| 464	| 0	| 183.25	| 8.27043E-08	| 248.94 |
-| 464	| 1	| 123.44	| 6.9377E-08	| 208.131 |
-| 464	| 2	| 204.51	| 4.21397E-08	| 208.423 |
-| 665	| 0	| 254.69	| 7.60032E-08	| 237.13 |
-| 665	| 1	| 203.9458	| 8.31225E-08	| 257.264 |
-| 665	| 2	| 164.6471	| 6.98147E-08	| 259.7106667 |
+| 214 | 0 | 170.54 | 6.75E-08 | 218.58 |
+| 214	| 1	| 231.22 | 7.22E-08	| 225.34 | 
+| 214	| 2	| 171.36 | 5.83E-08	| 178.28 | 
+| 464	| 0	| 183.25 | 8.27E-08	| 248.94 |
+| 464	| 1	| 123.44 | 6.94E-08	| 208.13 |
+| 464	| 2	| 204.51 | 4.21E-08	| 208.42 |
+| 665	| 0	| 254.69 | 7.60E-08	| 237.13 |
+| 665	| 1	| 203.95 | 8.31E-08	| 257.26 |
+| 665	| 2	| 164.65 | 6.98E-08	| 259.71 |
 
 ## Approach Summary
 
@@ -71,14 +73,14 @@ Based on resulting  R<sup>2</sup> values, the non-linear random forest regressio
 For the linear regression models: $ x_1 $ represents agitation rate, $ x_2 $ represents seed crystal mass, $ y_1 $ represents crystal yield, $ y_2 $ represents crystal growth rate, and $ y_3 $ represents the mean crystal diameter.  
 
 The linear regression with interactions between independent variables, resulted in the following relationships:
-\\[ y_1=144.0489+ 0.1274x_1+31.2298x_2-0.0951x_1 x_2 \\]
-\\[ y_2=6.889×10^{-8}+ 2.11×10^{-11} x_1-9.638×10^{-9} x_2+6.971×10^{-13} x_1 x_2 \\]
-\\[ y_3=223.5881+ 0.0290x_1-39.6561x_2+0.0669x_1 x_2 \\]
+\\[ y_1=144.05+ 0.13x_1+31.23x_2-0.10x_1 x_2 \\]
+\\[ y_2=6.89×10^{-8}+ 2.11×10^{-11} x_1-9.64×10^{-9} x_2+6.97×10^{-13} x_1 x_2 \\]
+\\[ y_3=223.59+ 0.03x_1-39.66x_2+0.07x_1 x_2 \\]
 
 The linear regression with interactions between dependent variables, resulted in the following relationships:
-\\[ y_1=186.6067+ 0.03229x_1-11.32795x_2 \\]
-\\[ y_2=7.4740×10^{-8}+ 2.2858×10^{-11} x_1-9.6994×10^{-9} x_2-3.29999×10^{-11} y_1 \\]
-\\[ y_3=101.7076+ 6.88697×10^{-2} x_1+1.6631x_2+8.0576×10^{-2} y_1+1.1212×10^9 y_2 \\]
+\\[ y_1=186.61+ 0.03x_1-11.33x_2 \\]
+\\[ y_2=7.47×10^{-8}+ 2.29×10^{-11} x_1-9.70×10^{-9} x_2-3.30×10^{-11} y_1 \\]
+\\[ y_3=101.71+ 6.89×10^{-2} x_1+1.66x_2+8.06×10^{-2} y_1+1.12×10^9 y_2 \\]
 
 Unlike linear methods, random forest regression models do not have a simple equation for expressing the relationship between the dependent and independent variables as the individual decision trees, contributing to the ensemble random forest follow a nodal tree structure.
 
@@ -87,8 +89,8 @@ Summarizing the R<sup>2</sup> scores for the three separate models:
 | Model Type | R<sup>2</sup> for $ y_1 $ \(Yield) | R<sup>2</sup> for $ y_1 $ \(Growth Rate) | R<sup>2</sup> for $ y_1 $ \(Mean Diameter) | 
 | :---: |:---: | :---: | :---: | 
 | Linear with independent variable interactions | 0.242 | 0.519 | 0.751 | 
-| Linear with dependent variable interactions	| 0.08978	| 0.519 | 0.592	| 
-| Random forest	| 0.7298	| 0.90597	| 0.905	| 
+| Linear with dependent variable interactions	| 0.090	| 0.519 | 0.592	| 
+| Random forest	| 0.730	| 0.906	| 0.905	| 
 
 Due to the higher R<sup>2</sup> scores observed for the random forest regression model, this was chosen to be used to solve the optimization problem.  
 
@@ -96,9 +98,9 @@ Optimization results for the random forest model:
 
 | Case | Agitation Rate \(rpm) | Seed Crystal Mass \(g) | Maximum Value | 
 | :---: |:---: | :---: | :---: | 
-| Yield | 565 rpm | 0 g |  238.8887 g  | 
-| Growth Rate	| 565 rpm	| 0.6 g | 8.05404×10E-8 m/s	| 
-| Mean Diameter	| 565 rpm | 1.2 g	| 253.9667 μm	| 
+| Yield | 565 rpm | 0 g |  238.89 g  | 
+| Growth Rate	| 565 rpm	| 0.6 g | 8.05E-8 m/s	| 
+| Mean Diameter	| 565 rpm | 1.2 g	| 253.97 μm	| 
 
 The final optimal seed crystal mass at 565 rpm agitation rate was found graphically. 
 
