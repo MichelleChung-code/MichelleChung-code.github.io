@@ -14,9 +14,7 @@ In partial fulfillment of the University of Calgary Chemical Engineering Capston
 
 A schematic of the modular configuration of the HTR-PM reactor, steam generator, and helium circulator:
 
-<p align="center">
-    <figure>
-        <img src="../assets/img/htr_pm_schematic.png" alt="HTR-PM" style="width:50%">
-        <figcaption>IAEA, "Status report 96 - High Temperature Gas Cooled Reactor - Pebble-Bed Module (HTR-PM)," 2011.</figcaption>
-    </figure>
-</p>
+<figure>
+    <img src="../assets/img/htr_pm_schematic.png" alt="HTR-PM" style="width:50%; text-align: center; display: block;">
+    <figcaption>IAEA, "Status report 96 - High Temperature Gas Cooled Reactor - Pebble-Bed Module (HTR-PM)," 2011.</figcaption>
+</figure>
