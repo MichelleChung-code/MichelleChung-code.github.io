@@ -94,7 +94,9 @@ Optimization results for the random forest model:
 
 The final optimal seed crystal mass at 565 rpm agitation rate was found graphically. 
 
-
+<p align="center">
+<img style="width:40%;" src="../assets/img/565rpm_optimization_seed_crystal_mass.png">
+</p>
 
 ## Results Summary
 
