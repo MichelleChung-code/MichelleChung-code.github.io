@@ -29,7 +29,7 @@ Experimental results obtained and used to run the regression analysis are tabula
 | 665	| 1	| 203.9458	| 8.31225E-08	| 257.264 |
 | 665	| 2	| 164.6471	| 6.98147E-08	| 259.7106667 |
 
-## Approach
+## Approach Summary
 
 Three regression models were considered and run: linear regression considering interactions between independent variables, linear regression considering interactions between dependent variables, and a non-linear random forest regression.  The coefficient of determination (R<sup>2</sup>) was used to evaluate the fit of the models.  
 
@@ -45,7 +45,7 @@ Where,
 - $ β_{i0} $  is the constant term
 - $ β_{i1} $, $ β_{i2} $, and $ β_{i3} $ are the coefficients associated with each independent variable, with $ β_{i3} $ being associated with the interaction term.
 
-The challenge with this approach is that the regression problem has been divided into a separate problem for each dependent variable to be predicted.  This assumes that the outputs are independent of each other.  The next linear model attempts to addressed this limitation.
+The challenge with this first model is that the regression problem has been divided into a separate problem for each dependent variable to be predicted.  This assumes that the outputs are independent of each other.  The next linear model attempts to addressed this limitation.
 
 The multiple linear regression considering interactions between dependent variables considers a linear sequence of models to produce outputs where the first model in the sequence uses independent variables only.  The second model then uses the independent variables, as well as, the output of the first model to make its prediction, and so on.
 
@@ -53,6 +53,12 @@ For the current three dependent and two independent variable case, the models ar
 \\[ y_1=\beta_{10}+ \beta_{11} x_1+\beta_{12} x_2 \\]
 \\[ y_2=\beta_{20}+ \beta_{21} x_1+\beta_{22} x_2+\alpha_{21} y_1 \\]
 \\[ y_3=\beta_{30}+ \beta_{31} x_1+\beta_{32} x_2+\alpha_{31} y_1+\alpha_{32} y_2 \\]
+
+A non-linear approach was also taken.  This was a random forest regression model.   Random forest models consist of numerous decision tree models, using an ensemble approach.  Each individual decision tree makes a model prediction, the random forest then chooses the most common model prediction as the final value.  Default parameters from the sklearn ensemble RandomForestRegressor were used.
+
+Based on resulting  R<sup>2</sup> values, the non-linear random forest regression model was determined to be the best fit for the experimental data and was used to select optimal conditions.  The optimization problem dealt with finding the conditions that would produce the maximum crystal yield, growth rate, and mean diameter.  Using the bounds defined by the experiment, 214 rpm to 665 rpm and 0 g to 2 g seed crystal mass, input values were produced by using step sizes of 5 rpm and 0.2 g within these ranges. The random forest model was then run to predict corresponding output values.  The maximum of which was chosen as the optimization solution.  
+
+## Results
 
 It can also be centered!
 
