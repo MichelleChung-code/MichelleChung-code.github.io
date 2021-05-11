@@ -63,13 +63,13 @@ At 2500s, a step change in magnitude of 5% natural system reactivity occurs. At 
 For the responses of temperature of the fuel elements and helium:
 
 <p align="center">
-<img style="width:100%;" src="../assets/img/smr_temp_dynamic.JPG" alt="Power Profile Comparison">
+<img style="width:100%;" src="../assets/img/smr_temp_dynamic.JPG" alt="Dynamic Response Temperatures">
 </p>
 
 For the responses of power output and outlet header temperature:
 
 <p align="center">
-<img style="width:100%;" src="../assets/img/smr_power_out_temp_dynamic.JPG" alt="Power Profile Comparison">
+<img style="width:100%;" src="../assets/img/smr_power_out_temp_dynamic.JPG" alt="Dynamic Response Power Output and Outlet Header Temp">
 </p>
 
 
