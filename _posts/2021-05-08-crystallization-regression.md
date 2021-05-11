@@ -33,6 +33,21 @@ Experimental results obtained and used to run the regression analysis are tabula
 
 Three regression models were considered and run: linear regression considering interactions between independent variables, linear regression considering interactions between dependent variables, and a non-linear random forest regression.  The coefficient of determination (R<sup>2</sup>) was used to evaluate the fit of the models.  
 
+In the models, three independent variables (yield, growth rate, and mean diameter) and two dependent variables were considered.
+
+The multiple linear regression considering interactions between independent variables follows:
+y_i=β_i0+ β_i1 x_1+β_i2 x_2+β_i3 x_1 x_2	
+
+Where, 
+- i is the dependent variable number of the given dependent variable. 
+- y_i is the dependent variable 
+- x_1 and x_2 are the independent variables, agitation rate (rpm) and seed crystal mass (g), respectively.  
+- β_i0 is the constant term
+- β_i1,β_i2, and β_i3 are the coefficients associated with each independent variable, with β_i3 being associated with the interaction term.
+
+\\[ a^2 = b^2 + c^2 \\]
+
+
 It can also be centered!
 
 ![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
