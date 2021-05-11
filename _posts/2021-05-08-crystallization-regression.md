@@ -3,6 +3,7 @@ layout: post
 title: Crystallization Regression
 subtitle: Regression Analysis on Crystallization Experimental Data 
 gh-repo: MichelleChung-code/MultipleOutputRegressions
+thumbnail-img: /assets/img/crystallization_setup.jpg
 tags: [Regression, Analysis, Chemical Engineering]
 ---
 Github Repository: [MultipleOutputRegressions](https://github.com/MichelleChung-code/MultipleOutputRegressions)
