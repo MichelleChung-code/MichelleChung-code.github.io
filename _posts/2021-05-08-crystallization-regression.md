@@ -82,7 +82,7 @@ Summarizing the R<sup>2</sup> scores for the three separate models:
 | Linear with dependent variable interactions	| 0.08978	| 0.519 | 0.592	| 
 | Random forest	| 0.7298	| 0.90597	| 0.905	| 
 
-Due to the higher R<sup>2</sup>  scores observed for the random forest regression model, this was chosen to be used to solve the optimization problem.  
+Due to the higher R<sup>2</sup> scores observed for the random forest regression model, this was chosen to be used to solve the optimization problem.  
 
 Optimization results for the random forest model:
 
@@ -100,6 +100,6 @@ The final optimal seed crystal mass at 565 rpm agitation rate was found graphica
 
 ## Results Summary
 
-	
+Of the three attempted regression models, the non-linear method proved to better fit the experimental data (based on R<sup>2</sup> scores) and was chosen to determine optimal conditions.  The optimal conditions found using the non-linear random forest regression model were an agitation rate of 565 rpm with 0.5643 g of seed crystals. 
 
 
