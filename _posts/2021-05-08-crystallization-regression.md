@@ -39,7 +39,7 @@ The multiple linear regression considering interactions between independent vari
 \\[ y_i=\beta_{i0}+ \beta_{i1} x_1+\beta_{i2} x_2+\beta_{i3} x_1 x_2 \\]
 
 Where, 
-- \\[ i \\] is the dependent variable number of the given dependent variable. 
+- $ i $ is the dependent variable number of the given dependent variable. 
 - \\[ y_i \\] is the dependent variable 
 - \\[ x_1 \\]  and \\[ x_2 \\] are the independent variables, agitation rate (rpm) and seed crystal mass (g), respectively.  
 - \\[ β_(i0) \\]  is the constant term
