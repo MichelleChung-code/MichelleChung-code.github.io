@@ -53,7 +53,7 @@ For nuclear kinetics, within each node, the neutron flux and material compositio
 With the 10 node case, the shape of the power profile of the modelled reactor, closely resembled that of the HTR-PM literature case.
 
 <p align="center">
-<img style="width:100%;" src="../assets/img/smr_power_profile.jpg" alt="Power Profile Comparison">
+<img style="width:100%;" src="../assets/img/smr_power_profile.JPG" alt="Power Profile Comparison">
 </p>
 
 **References**
