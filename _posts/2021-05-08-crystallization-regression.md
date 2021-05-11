@@ -86,11 +86,11 @@ Due to the higher R<sup>2</sup>  scores observed for the random forest regressio
 
 Optimization results for the random forest model:
 
-| Case | Agitation Rate \($ rpm $) | Seed Crystal Mass \($ g $) | Maximum Value | 
+| Case | Agitation Rate \(rpm) | Seed Crystal Mass \(g) | Maximum Value | 
 | :---: |:---: | :---: | :---: | 
-| Yield | $ 565 rpm $ | $ 0 g $ | $ 238.8887 g $ | 
-| Growth Rate	| $ 565 rpm $	| $ 0.6 g $ | $ 8.05404×10^{-8} m/s $	| 
-| Mean Diameter	| $ 565 rpm $	| $ 1.2 g $	| $ 253.9667 \mu m $	| 
+| Yield | 565 rpm | 0 g |  238.8887 g  | 
+| Growth Rate	| 565 rpm	| 0.6 g | $ 8.05404×10^{-8} $ m/s	| 
+| Mean Diameter	| 565 rpm | 1.2 g	| 253.9667 μm	| 
 
 The final optimal seed crystal mass at 565 rpm agitation rate was found graphically. 
 
