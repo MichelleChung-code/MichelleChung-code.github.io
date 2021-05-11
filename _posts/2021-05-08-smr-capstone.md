@@ -45,7 +45,7 @@ However, the Point Kinetics Equations reduces the reactor to a single point, inv
 A nodal approach was taken to more accurately model the reactor.  The reactor was axially split into nodes for both nuclear kinetics and thermal hydraulics.  The nodalization is depicted below:
 
 <p align="center">
-<img style="width:80%;" src="../assets/img/nodal_approach.png" alt="SMR nodalization">
+<img style="width:100%;" src="../assets/img/nodal_approach.png" alt="SMR nodalization">
 </p>
 
 For nuclear kinetics, within each node, the neutron flux and material composition are assumed constant. For the thermal hydraulic model, every node is considered as a lump which has constant temperature, pressure, and flow rate.  It is assumed that neutron exchange only occurs between adjacent nodes. These are considered through coupling coefficients, which depend on material composition, initial neutron flux distributions, and nodal geometry.
@@ -53,7 +53,7 @@ For nuclear kinetics, within each node, the neutron flux and material compositio
 With the 10 node case, the shape of the power profile of the modelled reactor, closely resembled that of the HTR-PM literature case.
 
 <p align="center">
-<img style="width:100%;" src="../assets/img/smr_power_profile.png" alt="Power Profile Comparison">
+<img style="width:100%;" src="../assets/img/smr_power_profile.jpg" alt="Power Profile Comparison">
 </p>
 
 **References**
