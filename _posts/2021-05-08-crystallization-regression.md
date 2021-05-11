@@ -18,7 +18,7 @@ This project involved running a regression analysis on experimental data obtaine
 Experimental results obtained and used to run the regression analysis are tabulated below:
 
 | Agitator Speed (rpm) | Seed Crystal Mass (g) | Yield (g) | Growth Rate (m/s) | Mean Diameter (g) |
-| :------ |:--- | :--- | :--- | :--- |
+| :------------------: |:--------------------: | :-------: | :---------------: | :---------------: |
 | 214 | 0 | 170.5448 | 6.7462E-08 | 218.577 |
 | 214	| 1	| 231.2165 | 7.22231E-08	| 225.336 | 
 | 214	| 2	| 171.36	| 5.82614E-08	| 178.28 | 
