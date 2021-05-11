@@ -17,7 +17,7 @@ This project involved running a regression analysis on experimental data obtaine
 
 Experimental results obtained and used to run the regression analysis are tabulated below:
 
-| Agitator Speed (rpm) | Seed Crystal Mass (g) | Yield (g) | Growth Rate (m/s) | Mean Diameter (g) |
+| Agitator Speed \(rpm) | Seed Crystal Mass \(g) | Yield \(g) | Growth Rate \(m/s) | Mean Diameter \(μm) |
 | :------------------: |:--------------------: | :-------: | :---------------: | :---------------: |
 | 214 | 0 | 170.5448 | 6.7462E-08 | 218.577 |
 | 214	| 1	| 231.2165 | 7.22231E-08	| 225.336 | 
@@ -40,9 +40,9 @@ The multiple linear regression considering interactions between independent vari
 
 Where, 
 - $ i $ is the dependent variable number of the given dependent variable. 
-- $ y_i $ is the dependent variable 
+- $ y_i $ is the dependent variable.
 - $ x_1 $  and $ x_2 $ are the independent variables, agitation rate (rpm) and seed crystal mass (g), respectively.  
-- $ β_{i0} $  is the constant term
+- $ β_{i0} $  is the constant term.
 - $ β_{i1} $, $ β_{i2} $, and $ β_{i3} $ are the coefficients associated with each independent variable, with $ β_{i3} $ being associated with the interaction term.
 
 The challenge with this first model is that the regression problem has been divided into a separate problem for each dependent variable to be predicted.  This assumes that the outputs are independent of each other.  The next linear model attempts to addressed this limitation.
@@ -54,6 +54,14 @@ For the current three dependent and two independent variable case, the models ar
 \\[ y_2=\beta_{20}+ \beta_{21} x_1+\beta_{22} x_2+\alpha_{21} y_1 \\]
 \\[ y_3=\beta_{30}+ \beta_{31} x_1+\beta_{32} x_2+\alpha_{31} y_1+\alpha_{32} y_2 \\]
 
+Where,
+- $ i $ is the dependent variable number of the given dependent variable. 
+- $ y_i $ is the dependent variable.
+- $ x_1 $ and $ x_2 $ are the independent variables, agitation rate (rpm) and seed crystal mass (g), respectively.  
+- $ \beta_{i0} $ is the constant term.
+- $ \beta_{i1} $ and $ \beta_{i2} $ are the coefficients associated with each independent variable.
+- $ \alpha_{ij} $ are the coefficients associated with the $ j $th dependent variable.
+
 A non-linear approach was also taken.  This was a random forest regression model.   Random forest models consist of numerous decision tree models, using an ensemble approach.  Each individual decision tree makes a model prediction, the random forest then chooses the most common model prediction as the final value.  Default parameters from the sklearn ensemble RandomForestRegressor were used.
 
 Based on resulting  R<sup>2</sup> values, the non-linear random forest regression model was determined to be the best fit for the experimental data and was used to select optimal conditions.  The optimization problem dealt with finding the conditions that would produce the maximum crystal yield, growth rate, and mean diameter.  Using the bounds defined by the experiment, 214 rpm to 665 rpm and 0 g to 2 g seed crystal mass, input values were produced by using step sizes of 5 rpm and 0.2 g within these ranges. The random forest model was then run to predict corresponding output values.  The maximum of which was chosen as the optimization solution.  
@@ -64,20 +72,42 @@ For the linear regression models: $ x_1 $ represents agitation rate, $ x_2 $ rep
 
 The linear regression with interactions between independent variables, resulted in the following relationships:
 \\[ y_1=144.0489+ 0.1274x_1+31.2298x_2-0.0951x_1 x_2 \\]
-\\[ y_2=6.889×10^(-8)+ 2.11×10^(-11) x_1-9.638×10^(-9) x_2+6.971×10^(-13) x_1 x_2 \\]
+\\[ y_2=6.889×10^{-8}+ 2.11×10^{-11} x_1-9.638×10^{-9} x_2+6.971×10^{-13} x_1 x_2 \\]
 \\[ y_3=223.5881+ 0.0290x_1-39.6561x_2+0.0669x_1 x_2 \\]
 
 The linear regression with interactions between dependent variables, resulted in the following relationships:
 \\[ y_1=186.6067+ 0.03229x_1-11.32795x_2 \\]
-\\[ y_2=7.4740×10^(-8)+ 2.2858×10^(-11) x_1-9.6994×10^(-9) x_2-3.29999×10^(-11) y_1 \\]
-\\[ y_3=101.7076+ 6.88697×10^(-2) x_1+1.6631x_2+8.0576×10^(-2) y_1+1.1212×10^9 y_2 \\]
+\\[ y_2=7.4740×10^{-8}+ 2.2858×10^{-11} x_1-9.6994×10^{-9} x_2-3.29999×10^{-11} y_1 \\]
+\\[ y_3=101.7076+ 6.88697×10^{-2} x_1+1.6631x_2+8.0576×10^{-2} y_1+1.1212×10^9 y_2 \\]
 
+Unlike linear methods, random forest regression models do not have a simple equation for expressing the relationship between the dependent and independent variables as the individual decision trees, contributing to the ensemble random forest follow a nodal tree structure.
 
+Summarizing the R<sup>2</sup> scores for the three separate models:
 
+| Model Type | R<sup>2</sup> for $ y_1 $ \(Yield) | R<sup>2</sup> for $ y_1 $ \(Growth Rate) | R<sup>2</sup> for $ y_1 $ \(Mean Diameter) | 
+| :---: |:---: | :---: | :---: | 
+| Linear with independent variable interactions | 0.242 | 0.519 | 0.751 | 
+| Linear with dependent variable interactions	| 0.08978	| 0.519 | 0.592	| 
+| Random forest	| 0.7298	| 0.90597	| 0.905	| 
 
+Due to the higher R<sup>2</sup> scores observed for the random forest regression model, this was chosen to be used to solve the optimization problem.  
 
+Optimization results for the random forest model:
 
+| Case | Agitation Rate \(rpm) | Seed Crystal Mass \(g) | Maximum Value | 
+| :---: |:---: | :---: | :---: | 
+| Yield | 565 rpm | 0 g |  238.8887 g  | 
+| Growth Rate	| 565 rpm	| 0.6 g | 8.05404×10E-8 m/s	| 
+| Mean Diameter	| 565 rpm | 1.2 g	| 253.9667 μm	| 
 
-	
+The final optimal seed crystal mass at 565 rpm agitation rate was found graphically. 
+
+<p align="center">
+<img style="width:80%;" src="../assets/img/565rpm_optimization_seed_crystal_mass.png">
+</p>
+
+## Results Summary
+
+Of the three attempted regression models, the non-linear method proved to better fit the experimental data (based on R<sup>2</sup> scores) and was chosen to determine optimal conditions.  The optimal conditions found using the non-linear random forest regression model were an agitation rate of 565 rpm with 0.5643 g of seed crystals. 
 
 
