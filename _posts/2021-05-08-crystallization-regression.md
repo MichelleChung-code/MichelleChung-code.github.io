@@ -17,7 +17,7 @@ This project involved running a regression analysis on experimental data obtaine
 
 Experimental results obtained and used to run the regression analysis are tabulated below:
 
-| Agitator Speed ($ rpm $) | Seed Crystal Mass ($ g $) | Yield ($ g $) | Growth Rate ($ m/s $) | Mean Diameter ($ \mu m $) |
+| Agitator Speed ($rpm$) | Seed Crystal Mass ($ g $) | Yield ($ g $) | Growth Rate ($ m/s $) | Mean Diameter ($ \mu m $) |
 | :------------------: |:--------------------: | :-------: | :---------------: | :---------------: |
 | 214 | 0 | 170.5448 | 6.7462E-08 | 218.577 |
 | 214	| 1	| 231.2165 | 7.22231E-08	| 225.336 | 
@@ -90,6 +90,10 @@ Optimization results for the random forest model:
 | Yield | $ 565 rpm $ | $ 0 g $ | $ 238.8887 g $ | 
 | Growth Rate	| $ 565 rpm $	| $ 0.6 g $ | $ 8.05404×10^{-8} m/s $	| 
 | Mean Diameter	| $ 565 rpm $	| $ 1.2 g $	| $ 253.9667 \mu m $	| 
+
+The final optimal seed crystal mass at 565 rpm agitation rate was found graphically. 
+
+
 
 ## Results Summary
 
