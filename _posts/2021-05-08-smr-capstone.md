@@ -74,4 +74,9 @@ For the responses of power output and outlet header temperature:
 
 
 **Key References**
-- 
+- International Atomic Energy Agency, "Status of innovative small and medium sized reactor designs 2005," Vienna, Austria, IAEA, 2006, pp. 509-529.
+- Z. Zhang, Z. Wu, D. Wang, Y. Xu, Y. Sun, F. Li and Y. Dong, "Current status and technical description of Chinese 2×250MWth HTR-PM," Nuclear Engineering and Design, vol. 239, 2009. 
+- Z. Zhang, Z. Wu, Y. Sun and F. Li, "Design aspects of the Chinese modular high-temperature," Nuclear Engineering and Design, vol. 236, 2006. 
+- N. K. A. M. Rashid, "Modeling nuclear processes by Simulink," AIP Conference Proceedings, vol. 1659, no. 030003, 2015. 
+- Z. Dong, X. Huang and L. Zhang, "A nodal dynamic model for control system design and simulation of an MHTGR core," Nuclear Engineering and Design, vol. 240, pp. 1251-1261, 2010. 
+- Z. Dong, Y. Pan, M. Song, X. Huang, Y. Dong and Z. Zhang, "Dynamic Modeling and Control Characteristics of the Two-Modular HTR-PM Nuclear Plant," Science and Technology of Nuclear Installations, vol. 2017, no. 6298037, 2017. 
