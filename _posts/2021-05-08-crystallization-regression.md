@@ -47,7 +47,7 @@ Where,
 - $ β_{i0} $  is the constant term.
 - $ β_{i1} $, $ β_{i2} $, and $ β_{i3} $ are the coefficients associated with each independent variable, with $ β_{i3} $ being associated with the interaction term.
 
-The challenge with this first model is that the regression problem has been divided into a separate problem for each dependent variable to be predicted.  This assumes that the outputs are independent of each other.  The next linear model attempts to addressed this limitation.
+The challenge with this first model is that the regression problem has been divided into a separate problem for each dependent variable to be predicted.  This assumes that the outputs are independent of each other.  The next linear model attempted to address this limitation.
 
 The multiple linear regression considering interactions between dependent variables considers a linear sequence of models to produce outputs where the first model in the sequence uses independent variables only.  The second model then uses the independent variables, as well as, the output of the first model to make its prediction, and so on.
 
@@ -66,7 +66,7 @@ Where,
 
 A non-linear approach was also taken.  This was a random forest regression model.   Random forest models consist of numerous decision tree models, using an ensemble approach.  Each individual decision tree makes a model prediction, the random forest then chooses the most common model prediction as the final value.  Default parameters from the sklearn ensemble RandomForestRegressor were used.
 
-Based on resulting  R<sup>2</sup> values, the non-linear random forest regression model was determined to be the best fit for the experimental data and was used to select optimal conditions.  The optimization problem dealt with finding the conditions that would produce the maximum crystal yield, growth rate, and mean diameter.  Using the bounds defined by the experiment, 214 rpm to 665 rpm and 0 g to 2 g seed crystal mass, input values were produced by using step sizes of 5 rpm and 0.2 g within these ranges. The random forest model was then run to predict corresponding output values.  The maximum of which was chosen as the optimization solution.  
+Based on resulting  R<sup>2</sup> values, the non-linear random forest regression model was determined to be the model that best fit the experimental data and was used to select optimal conditions.  The optimization problem dealt with finding the conditions that would produce the maximum crystal yield, growth rate, and mean diameter.  Using the bounds defined by the experiment, 214 rpm to 665 rpm and 0 g to 2 g seed crystal mass, input values were produced using step sizes of 5 rpm and 0.2 g within these ranges. The random forest model was then run to predict corresponding output values.  The maximum of which was chosen as the optimization solution.  
 
 ## Results
 
@@ -92,7 +92,7 @@ Summarizing the R<sup>2</sup> scores for the three separate models:
 | Linear with dependent variable interactions	| 0.090	| 0.519 | 0.592	| 
 | Random forest	| 0.730	| 0.906	| 0.905	| 
 
-Due to the higher R<sup>2</sup> scores observed for the random forest regression model, this was chosen to be used to solve the optimization problem.  
+Due to the higher R<sup>2</sup> scores observed for the random forest regression model, this model was chosen to solve the optimization problem.  
 
 Optimization results for the random forest model:
 
