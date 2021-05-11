@@ -64,13 +64,13 @@ For the linear regression models: $ x_1 $ represents agitation rate, $ x_2 $ rep
 
 The linear regression with interactions between independent variables, resulted in the following relationships:
 \\[ y_1=144.0489+ 0.1274x_1+31.2298x_2-0.0951x_1 x_2 \\]
-\\[ y_2=6.889×10^(-8)+ 2.11×10^(-11) x_1-9.638×10^(-9) x_2+6.971×10^(-13) x_1 x_2 \\]
+\\[ y_2=6.889×10^{-8}+ 2.11×10^{-11} x_1-9.638×10^{-9} x_2+6.971×10^{-13} x_1 x_2 \\]
 \\[ y_3=223.5881+ 0.0290x_1-39.6561x_2+0.0669x_1 x_2 \\]
 
 The linear regression with interactions between dependent variables, resulted in the following relationships:
 \\[ y_1=186.6067+ 0.03229x_1-11.32795x_2 \\]
-\\[ y_2=7.4740×10^(-8)+ 2.2858×10^(-11) x_1-9.6994×10^(-9) x_2-3.29999×10^(-11) y_1 \\]
-\\[ y_3=101.7076+ 6.88697×10^(-2) x_1+1.6631x_2+8.0576×10^(-2) y_1+1.1212×10^9 y_2 \\]
+\\[ y_2=7.4740×10^{-8}+ 2.2858×10^{-11} x_1-9.6994×10^{-9} x_2-3.29999×10^{-11} y_1 \\]
+\\[ y_3=101.7076+ 6.88697×10^{-2} x_1+1.6631x_2+8.0576×10^{-2} y_1+1.1212×10^9 y_2 \\]
 
 
 
