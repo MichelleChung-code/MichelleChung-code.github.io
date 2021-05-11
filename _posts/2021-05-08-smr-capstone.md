@@ -4,6 +4,7 @@ title: Small Modular Reactor
 subtitle: Modelling of a Small Modular Nuclear Reactor Capstone Project
 gh-repo: MichelleChung-code/SmallModularNuclearReactor
 thumbnail-img: /assets/img/htr_pm_schematic.png
+readtime: true
 tags: [Chemical Engineering, Modelling, ODE solvers, Capstone, SMR]
 ---
 Github Repository: [SmallModularNuclearReactor](https://github.com/MichelleChung-code/SmallModularNuclearReactor)
