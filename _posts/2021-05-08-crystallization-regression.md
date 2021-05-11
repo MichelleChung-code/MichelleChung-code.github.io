@@ -40,10 +40,10 @@ The multiple linear regression considering interactions between independent vari
 
 Where, 
 - $ i $ is the dependent variable number of the given dependent variable. 
-- \\[ y_i \\] is the dependent variable 
-- \\[ x_1 \\]  and \\[ x_2 \\] are the independent variables, agitation rate (rpm) and seed crystal mass (g), respectively.  
-- \\[ β_(i0) \\]  is the constant term
-- \\[ β_(i1) \\], \\[ β_(i2) \\], and \\[ β_(i3) \\] are the coefficients associated with each independent variable, with \\[ β_(i3) \\] being associated with the interaction term.
+- $ y_i $ is the dependent variable 
+- $ x_1 $  and $ x_2 $ are the independent variables, agitation rate (rpm) and seed crystal mass (g), respectively.  
+- $ β_{i0} $  is the constant term
+- $ β_{i1} $, $ β_{i2} $, and $ β_{i3} $ are the coefficients associated with each independent variable, with $ β_{i3} $ being associated with the interaction term.
 
 It can also be centered!
 
