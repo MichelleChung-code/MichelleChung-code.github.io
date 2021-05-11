@@ -72,8 +72,15 @@ The linear regression with interactions between dependent variables, resulted in
 \\[ y_2=7.4740×10^{-8}+ 2.2858×10^{-11} x_1-9.6994×10^{-9} x_2-3.29999×10^{-11} y_1 \\]
 \\[ y_3=101.7076+ 6.88697×10^{-2} x_1+1.6631x_2+8.0576×10^{-2} y_1+1.1212×10^9 y_2 \\]
 
+Unlike linear methods, random forest regression models do not have a simple equation for expressing the relationship between the dependent and independent variables as the individual decision trees, contributing to the ensemble random forest follow a nodal tree structure.
 
+Summarizing the R<sup>2</sup> scores for the three separate models:
 
+| Model Type | R<sup>2</sup> for $ y_1 $ (Yield) | R<sup>2</sup> for $ y_1 $ (Growth Rate) | R<sup>2</sup> for $ y_1 $ (Mean diameter) | 
+| :---: |:---: | :---: | :---: | 
+| Linear with independent variable interactions | 0.242 | 0.519 | 0.751 | 
+| Linear with dependent variable interactions	| 0.08978	| 0.519 | 0.592	| 
+| Random forest	| 0.7298	| 0.90597	| 0.905	| 
 
 
 
