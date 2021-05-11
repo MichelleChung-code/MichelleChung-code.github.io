@@ -54,6 +54,14 @@ For the current three dependent and two independent variable case, the models ar
 \\[ y_2=\beta_{20}+ \beta_{21} x_1+\beta_{22} x_2+\alpha_{21} y_1 \\]
 \\[ y_3=\beta_{30}+ \beta_{31} x_1+\beta_{32} x_2+\alpha_{31} y_1+\alpha_{32} y_2 \\]
 
+Where,
+- $ i $ is the dependent variable number of the given dependent variable. 
+- $ y_i $ is the dependent variable.
+- $ x_1 $ and $ x_2 $ are the independent variables, agitation rate (rpm) and seed crystal mass (g), respectively.  
+- $ \beta_{i0} $ is the constant term
+- $ \beta_{i1} $ and $ \beta_{i2} $ are the coefficients associated with each independent variable.
+- $ \alpha_{ij} $ are the coefficients associated with the $ j $th dependent variable.
+
 A non-linear approach was also taken.  This was a random forest regression model.   Random forest models consist of numerous decision tree models, using an ensemble approach.  Each individual decision tree makes a model prediction, the random forest then chooses the most common model prediction as the final value.  Default parameters from the sklearn ensemble RandomForestRegressor were used.
 
 Based on resulting  R<sup>2</sup> values, the non-linear random forest regression model was determined to be the best fit for the experimental data and was used to select optimal conditions.  The optimization problem dealt with finding the conditions that would produce the maximum crystal yield, growth rate, and mean diameter.  Using the bounds defined by the experiment, 214 rpm to 665 rpm and 0 g to 2 g seed crystal mass, input values were produced by using step sizes of 5 rpm and 0.2 g within these ranges. The random forest model was then run to predict corresponding output values.  The maximum of which was chosen as the optimization solution.  
