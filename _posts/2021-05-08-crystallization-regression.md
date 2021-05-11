@@ -36,7 +36,7 @@ Three regression models were considered and run: linear regression considering i
 In the models, three independent variables (yield, growth rate, and mean diameter) and two dependent variables were considered.
 
 The multiple linear regression considering interactions between independent variables follows:
-\\[ y_i=\beta_(i0)+ \beta_(i1) x_1+\beta_(i2) x_2+\beta_(i3) x_1 x_2 \\]
+\\[ y_i=\beta_{i0}+ \beta_{i1} x_1+\beta_{i2} x_2+\beta_{i3} x_1 x_2 \\]
 
 Where, 
 - \\[ i \\] is the dependent variable number of the given dependent variable. 
