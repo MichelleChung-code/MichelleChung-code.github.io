@@ -8,6 +8,8 @@ tags: [Chemical Engineering, Modelling, ODE solvers, Capstone, SMR]
 ---
 Github Repository: [SmallModularNuclearReactor](https://github.com/MichelleChung-code/SmallModularNuclearReactor)
 
+Engineering Design Fair Website: [Using Energy from a Small Modular Nuclear Reactor to Manufacture Hydrogen](https://engineeringdesignfair.ucalgary.ca/chemical/using-energy-from-a-small-modular-reactor-to-manufacture-hydrogen/)
+
 Skills Used: [MATLAB](https://www.mathworks.com/products/matlab.html){:target="_blank"}, [Python](https://www.python.org/){:target="_blank"}
 
 ## Project Objective
