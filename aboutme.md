@@ -20,3 +20,6 @@ Here are some of my current certifications:
 - [Scientific Computing with Python](https://freecodecamp.org/certification/michellechung-code/scientific-computing-with-python-v7) - freeCodeCamp, Dec 2020
 - [Applied Data Science with Python Specialization](https://www.coursera.org/account/accomplishments/specialization/J7L9FN7CK8QL) - Coursera, Feb 2020
 - [Python Classes and Inheritance](https://www.coursera.org/account/accomplishments/verify/QHV9RXEYFV9Q) - Coursera, Jan 2020
+
+<p>Languages and Tools:</p>
+<p> <a href="https://www.mathworks.com/" target="_blank"> <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/master/icons/mathworks.svg" alt="matlab" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
