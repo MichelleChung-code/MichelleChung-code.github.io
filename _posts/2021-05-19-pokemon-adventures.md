@@ -11,11 +11,13 @@ Github Repository: [PokemonAdventures](https://github.com/MichelleChung-code/Pok
 
 Skills Used: [Python](https://www.python.org/){:target="_blank"}
 
+<p align="center">
 <a href="https://norekuseven.weebly.com/">
-<img src="../assets/img/Charmander.png" width="500">
+<img src="../assets/img/Charmander.png" width="50%">
 </a>
+</p>
 
-The above (and thumbnail) image was drawn by my younger brother, please click on the above image to check out his digital art website!
+The above (and thumbnail) image was drawn by my younger brother, please click on the above image to check out his digital art!
 
 ## Background
 I've always been a huge fan of the Pokémon franchise.  This began with watching the TV series during my childhood and having "Pokémon Mystery Dungeon: Blue Rescue Team" as my first Nintendo DS game.  To date, I've played through most of the Nintendo DS/3DS games (including those from the main series,  Pokémon Ranger, and Mystery Dungeon).  More recently, I've been continuing my journey of becoming a Pokémon master through Nintendo Switch games: "Let's Go Eevee", "Sword", and "Mystery Dungeon: Rescue Team DX".  I am also the owner of the POGO AllianceCross account (friend code is 0258 2671 0038 😉).
