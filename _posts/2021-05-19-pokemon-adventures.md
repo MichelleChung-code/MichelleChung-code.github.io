@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Pokemon Adventures
-subtitle: Exploring Pokemon through Python
+title: Pokémon Adventures
+subtitle: Exploring Pokémon through Python
 gh-repo: MichelleChung-code/PokemonAdventures
 thumbnail-img: /assets/img/Charmander.png
 readtime: true
