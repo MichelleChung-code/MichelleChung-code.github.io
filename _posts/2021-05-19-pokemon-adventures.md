@@ -26,3 +26,6 @@ Current output of the [Jupyter Notebook](https://github.com/MichelleChung-code/P
 </p>
 
 ## Web Scraper
+The pokemon stats information used in the battle simulation have been scraped from [Complete Pokémon Pokédex Website](https://pokemondb.net/pokedex/all) using the requests and bs4 (BeautifulSoup) packages.  Data is then cleaned and exported as a CSV file to be more usable for the battle simulation.
+
+## More Coming Soon!
