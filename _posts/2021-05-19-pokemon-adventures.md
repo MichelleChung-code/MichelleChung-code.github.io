@@ -12,7 +12,7 @@ Github Repository: [PokemonAdventures](https://github.com/MichelleChung-code/Pok
 Skills Used: [Python](https://www.python.org/){:target="_blank"}
 
 <p align="center">
-<a href="https://norekuseven.weebly.com/">
+<a href="https://norekuseven.weebly.com/" target="_blank">
 <img src="../assets/img/Charmander.png" width="50%">
 </a>
 </p>
