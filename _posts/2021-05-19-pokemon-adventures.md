@@ -22,7 +22,7 @@ Implementation allows for users to manually select moves used or for automatic s
 Current output of the [Jupyter Notebook](https://github.com/MichelleChung-code/PokemonAdventures/blob/main/src/main/python/UserBattle.ipynb):
 
 <p align="center">
-<img style="width:80%;" src="../assets/img/UserBattleOutputScreenshot.JPG" alt="Jupyter Notebook Output">
+<img style="width:80%;" src="../assets/img/UserBattleOutputScreenshot.jpg" alt="Jupyter Notebook Output">
 </p>
 
 ## Web Scraper
