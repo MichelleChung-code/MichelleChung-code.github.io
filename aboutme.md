@@ -14,6 +14,7 @@ Hello again, I'm Michelle! 👋
 - 📺 In my free time, you can find me exploring the world of Pokémon
 
 Here are some of my current certifications:
+- [Investment Analysis with Natural Language Processing (NLP)](https://www.udemy.com/certificate/UC-8274eda0-27d6-4a37-b0b0-3d050d3e73ba/) - Udemy, May 2021
 - [Spark and Python for Big Data with PySpark](http://ude.my/UC-e4a3f8a6-2699-4b82-b22b-b2a630d57256) - Udemy, Feb 2021
 - [Problem Solving Using Computational Thinking](https://coursera.org/share/3d8c89a5011ba6c9bb0ba2c42ca6f0e7) - Coursera, Jan 2021
 - [Data Analysis with Python](https://freecodecamp.org/certification/michellechung-code/data-analysis-with-python-v7) - freeCodeCamp, Dec 2020
