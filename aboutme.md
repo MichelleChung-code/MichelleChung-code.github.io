@@ -24,4 +24,4 @@ Here are some of my current certifications:
 - [Python Classes and Inheritance](https://www.coursera.org/account/accomplishments/verify/QHV9RXEYFV9Q) - Coursera, Jan 2020
 
 <p>Languages and Tools:</p>
-<p align='center'> <a href="https://www.mathworks.com/" target="_blank"> <img src="./assets/img/matlab_logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+<p align='center'> <a href="https://www.mathworks.com/" target="_blank"> <img src="/assets/img/matlab_logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
