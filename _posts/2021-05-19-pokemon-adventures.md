@@ -26,6 +26,11 @@ I've always been a huge fan of the Pokémon franchise.  This began with watching
 <img style="width:40%;" src="../assets/img/AllianceCrossFriendCode.jpg" alt="POGO QR Code">
 </p>
 
+Run this in Python 3 to find out who my favourite Pokémon is!
+```javascript
+bytearray.fromhex("43 68 61 72 6d 61 6e 64 65 72").decode()
+```
+
 ## Battle Simulation
 Through using Python and Jupyter Notebook (for ipywidgets), I've implemented a simplified version of simulating a pokemon battle through using stats and moveset data.  In this, I've considered move power, accuracy, and whether moves are status-effect causing. Status effect logic has been included for when the pokemon is: paralyzed, poisoned, badly poisoned, burned, frozen, confused, infatuated, and affected by leech seed.  This was not meant to be an exact replica of the logic that the franchise follows, but more so, an exercise on how I might implement such logic. 
 
