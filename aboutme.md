@@ -14,7 +14,7 @@ Hello again, I'm Michelle! 👋
 - 📺 In my free time, you can find me exploring the world of Pokémon
 
 Here are some of my current certifications:
-- [Python Data Structures and Algorithms]("./assets/certifications/CertificateOfCompletion_Python Data Structures and Algorithms.pdf") - LinkedIn, Jul 2021
+- [Python Data Structures and Algorithms](https://michellechung-code.github.io/assets/certifications/CertificateOfCompletion_Python%20Data%20Structures%20and%20Algorithms.pdf) - LinkedIn, Jul 2021
 - [Build a Robust Stock Valuation System - Financial Modeling](https://www.udemy.com/certificate/UC-1f62fb6e-7c3f-4c9d-b2cf-f1b294726b11/) - Udemy, May 2021
 - [Investment Analysis with Natural Language Processing (NLP)](https://www.udemy.com/certificate/UC-8274eda0-27d6-4a37-b0b0-3d050d3e73ba/) - Udemy, May 2021
 - [Spark and Python for Big Data with PySpark](http://ude.my/UC-e4a3f8a6-2699-4b82-b22b-b2a630d57256) - Udemy, Feb 2021
