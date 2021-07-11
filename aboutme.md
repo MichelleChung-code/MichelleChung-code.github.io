@@ -14,7 +14,7 @@ Hello again, I'm Michelle! 👋
 - 📺 In my free time, you can find me exploring the world of Pokémon
 
 Here are some of my current certifications:
-- [Advanced Design Patterns: Design Principles]() - LinkedIn, Jul 2021
+- [Advanced Design Patterns: Design Principles](https://michellechung-code.github.io/assets/certifications/CertificateOfCompletion_Advanced%20Design%20Patterns_Design%20Principles.pdf) - LinkedIn, Jul 2021
 - [Python Data Structures and Algorithms](https://michellechung-code.github.io/assets/certifications/CertificateOfCompletion_Python%20Data%20Structures%20and%20Algorithms.pdf) - LinkedIn, Jul 2021
 - [Build a Robust Stock Valuation System - Financial Modeling](https://www.udemy.com/certificate/UC-1f62fb6e-7c3f-4c9d-b2cf-f1b294726b11/) - Udemy, May 2021
 - [Investment Analysis with Natural Language Processing (NLP)](https://www.udemy.com/certificate/UC-8274eda0-27d6-4a37-b0b0-3d050d3e73ba/) - Udemy, May 2021
