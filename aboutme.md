@@ -14,18 +14,20 @@ Hello again, I'm Michelle! 👋
 - 📺 In my free time, you can find me exploring the world of Pokémon
 
 Here are some of my current course certifications:
+
 <details>
 <summary>Python Related</summary>
-
-+ [Python: Design Patterns](https://michellechung-code.github.io/assets/certifications/CertificateOfCompletion_Python%20Design%20Patterns.pdf) - LinkedIn, Jul 2021
-+ [Python Data Structures and Algorithms](https://michellechung-code.github.io/assets/certifications/CertificateOfCompletion_Python%20Data%20Structures%20and%20Algorithms.pdf) - LinkedIn, Jul 2021
-+ [Spark and Python for Big Data with PySpark](http://ude.my/UC-e4a3f8a6-2699-4b82-b22b-b2a630d57256) - Udemy, Feb 2021
-+ [Data Analysis with Python](https://freecodecamp.org/certification/michellechung-code/data-analysis-with-python-v7) - freeCodeCamp, Dec 2020
-+ [Scientific Computing with Python](https://freecodecamp.org/certification/michellechung-code/scientific-computing-with-python-v7) - freeCodeCamp, Dec 2020
-+ [Applied Data Science with Python Specialization](https://www.coursera.org/account/accomplishments/specialization/J7L9FN7CK8QL) - Coursera, Feb 2020
-+ [Python Classes and Inheritance](https://www.coursera.org/account/accomplishments/verify/QHV9RXEYFV9Q) - Coursera, Jan 2020
-
+    <ul>
+    <li> <a href="https://michellechung-code.github.io/assets/certifications/CertificateOfCompletion_Python%20Design%20Patterns.pdf" target="_blank">Python: Design Patterns</a> - LinkedIn, Jul 2021 </li>
+    <li> <a href="https://michellechung-code.github.io/assets/certifications/CertificateOfCompletion_Python%20Data%20Structures%20and%20Algorithms.pdf" target="_blank">Python Data Structures and Algorithms</a> - LinkedIn, Jul 2021 </li>
+    <li> <a href="http://ude.my/UC-e4a3f8a6-2699-4b82-b22b-b2a630d57256" target="_blank">Spark and Python for Big Data with PySpark</a> - Udemy, Feb 2021 </li>
+    <li> <a href="https://freecodecamp.org/certification/michellechung-code/data-analysis-with-python-v7" target="_blank">Data Analysis with Python</a> - freeCodeCamp, Dec 2020 </li>
+    <li> <a href="https://freecodecamp.org/certification/michellechung-code/scientific-computing-with-python-v7" target="_blank">Scientific Computing with Python</a> - freeCodeCamp, Dec 2020 </li>
+    <li> <a href="https://www.coursera.org/account/accomplishments/specialization/J7L9FN7CK8QL" target="_blank">Applied Data Science with Python Specialization</a> - Coursera, Feb 2020 </li>
+    <li> <a href="https://www.coursera.org/account/accomplishments/verify/QHV9RXEYFV9Q" target="_blank">Python Classes and Inheritance</a> - Coursera, Jan 2020 </li>
+    <ul>
 </details>
+
 
 <details>
 <summary>Finance Related</summary>
