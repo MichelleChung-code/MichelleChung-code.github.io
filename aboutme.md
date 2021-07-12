@@ -17,6 +17,7 @@ Here are some of my current course certifications:
 <details>
 <summary>Python Related</summary>
 
++ [Python: Design Patterns](https://michellechung-code.github.io/assets/certifications/CertificateOfCompletion_Python%20Design%20Patterns.pdf) - LinkedIn, Jul 2021
 + [Python Data Structures and Algorithms](https://michellechung-code.github.io/assets/certifications/CertificateOfCompletion_Python%20Data%20Structures%20and%20Algorithms.pdf) - LinkedIn, Jul 2021
 + [Spark and Python for Big Data with PySpark](http://ude.my/UC-e4a3f8a6-2699-4b82-b22b-b2a630d57256) - Udemy, Feb 2021
 + [Data Analysis with Python](https://freecodecamp.org/certification/michellechung-code/data-analysis-with-python-v7) - freeCodeCamp, Dec 2020
