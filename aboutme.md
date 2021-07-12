@@ -37,12 +37,13 @@ Here are some of my current course certifications:
     <ul>
 </details>
 
+
 <details>
-<summary>More General</summary>
-
-+ [Advanced Design Patterns: Design Principles](https://michellechung-code.github.io/assets/certifications/CertificateOfCompletion_Advanced%20Design%20Patterns_Design%20Principles.pdf) - LinkedIn, Jul 2021
-+ [Problem Solving Using Computational Thinking](https://coursera.org/share/3d8c89a5011ba6c9bb0ba2c42ca6f0e7) - Coursera, Jan 2021
-
+<summary>General</summary>
+    <ul>
+    <li> <a href="https://michellechung-code.github.io/assets/certifications/CertificateOfCompletion_Advanced%20Design%20Patterns_Design%20Principles.pdf" target="_blank">Advanced Design Patterns: Design Principles</a> - LinkedIn, Jul 2021 </li>
+    <li> <a href="https://coursera.org/share/3d8c89a5011ba6c9bb0ba2c42ca6f0e7" target="_blank">Problem Solving Using Computational Thinking</a> - Coursera, Jan 2021 </li>
+    <ul>
 </details>
 
 
