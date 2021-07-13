@@ -33,7 +33,7 @@ Here are some of my current course certifications:
 <summary>Finance Related</summary>
     <ul>
     <li> <a href="https://www.udemy.com/certificate/UC-1f62fb6e-7c3f-4c9d-b2cf-f1b294726b11/" target="_blank">Build a Robust Stock Valuation System - Financial Modeling</a> - Udemy, May 2021 </li>
-    <li> <a href="https://www.udemy.com/certificate/UC-8274eda0-27d6-4a37-b0b0-3d050d3e73ba/" target="_blank">Investment Analysis with Natural Language Processing (NLP)</a> - Udemy, May 20212021 </li>
+    <li> <a href="https://www.udemy.com/certificate/UC-8274eda0-27d6-4a37-b0b0-3d050d3e73ba/" target="_blank">Investment Analysis with Natural Language Processing (NLP)</a> - Udemy, May 2021 </li>
     </ul>
 </details>
 
